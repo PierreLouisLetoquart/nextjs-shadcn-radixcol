@@ -31,5 +31,12 @@
     "tailwindcss": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.1.4"
+  },
+  "bun-create": {
+    "postinstall": [
+      "echo 'Done!'",
+      "echo 'You can add `dev: next dev --turbo` to your package.json scripts to enable Turbo Mode in development.'",
+      "echo 'You can add `dev: next dev` to your package.json scripts to run the default development server.'"
+    ]
   }
 }
